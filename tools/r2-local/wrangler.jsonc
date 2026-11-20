@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "spcf-r2-local",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-20",
+
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "spcf-project-portal-local",
+      "local_dev": {
+        "experimental_s3_credentials": {
+          "accessKeyId": "local-access-key-id",
+          "secretAccessKey": "local-secret-access-key"
+        }
+      }
+    }
+  ]
+}

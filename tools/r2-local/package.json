@@ -1,0 +1,11 @@
+{
+  "name": "r2-local",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.165.0"
+  }
+}
